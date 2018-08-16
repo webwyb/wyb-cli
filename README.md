@@ -18,16 +18,16 @@ npm install -g wyb-cli
 
 ## 基本功能
 
-####1. 增加一个模版
+#### 1. 增加一个模版
 
 ```
 wyb-cli add
 ```
-####2. 删除一个模版
+#### 2. 删除一个模版
 ```$xslt
 wyb-cli delete
 ```
-####3.  展示所有模版
+#### 3.  展示所有模版
 
 ```$xslt
 wyb-cli list
@@ -36,4 +36,8 @@ wyb-cli list
 ```$xslt
 wyb-cli init
 ```
-  
+## TODO
+
+1. 支持模糊查询已有模版
+2. 优化展示UI界面，交互操作
+3. 同步所有模版(共享)
